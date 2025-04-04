@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -16,7 +17,7 @@ h3 {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: bolder;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 15px;
 }
 
@@ -33,6 +34,7 @@ p {
 .amountPrice {
   font-size: 24px;
   margin-bottom: 0;
+  float: left;
 }
 
 .shipping {
@@ -41,6 +43,8 @@ p {
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 20px;
+  float: right;
+  margin-top: 8px;
 }
 
 .more-info:link,
@@ -128,4 +132,37 @@ nav div {
 
 .brown {
   background-color: brown;
+}
+
+/*
+40px space -> Figurate out the width
+or use a 200px 
+
+*/
+
+.info {
+  clear: both;
+}
+
+.priceContainer {
+  float: left;
+  width: 30%;
+  margin: 20px 5%;
+}
+
+.descriptionContainer {
+  float: right;
+  width: 30%;
+  margin-top: 20px;
+}
+
+/* image {
+  float: right;
+} */
+
+.image {
+  width: 30%;
+  /* height: 250px; */
+  float: left;
+  background-color: red;
 }
