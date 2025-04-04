@@ -46,6 +46,8 @@ p {
 .more-info:link,
 .more-info:visited {
   color: black;
+  display: block;
+  margin-bottom: 30px;
 }
 
 .more-info:hover,
@@ -76,4 +78,54 @@ p {
   line-height: 1.4;
   width: 825px;
   margin: 50px auto;
+}
+
+header {
+  position: relative;
+}
+
+.saleLabel {
+  background-color: red;
+  color: white;
+  padding: 7px 15px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 2px;
+  display: inline-block;
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
+.squareColor {
+  background-color: black;
+  width: 22px;
+  height: 22px;
+}
+
+nav div {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
 }
