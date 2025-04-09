@@ -156,6 +156,7 @@ or use a 200px
 
 /* Flexbox */
 
+/*
 .image {
   width: 250px;
   height: 250px;
@@ -185,4 +186,32 @@ or use a 200px
 .product-details {
   flex: 1;
   margin-top: 20px;
+}
+*/
+
+/*CSS GIRD*/
+.child-container {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+  align-items: start;
+}
+
+.shipping-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-container {
+  margin-top: 20px;
+}
+
+.product-details {
+  margin-top: 20px;
+}
+
+.product-color {
+  display: flex;
+  gap: 10px;
 }
